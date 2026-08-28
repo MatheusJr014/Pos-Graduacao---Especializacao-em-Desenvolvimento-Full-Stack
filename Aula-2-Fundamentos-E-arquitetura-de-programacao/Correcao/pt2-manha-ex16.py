@@ -1,0 +1,9 @@
+# 7. A CONVERSÃO DE GRAUS FAHRENHEIT PARA CENTÍGRADOS É OBTIDA PELA FÓRMULA C = 5/9(F – 32).
+# ESCREVA UM ALGORITMO QUE CALCULE E ESCREVA UMA TABELA DE GRAUS CENTÍGRADOS EM FUNÇÃO DE GRAUS FAHRENHEIT,
+# QUE VARIE DE 50 A 150 DE 1 EM 1.
+
+print("Fahrenheit  Centígrados")
+
+for f in range(50, 151):
+    c = (5 / 9) * (f - 32)
+    print(f"{f:10}  {c:10.2f}")
